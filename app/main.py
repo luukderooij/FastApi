@@ -11,6 +11,12 @@ from app.api.routes import auth, users
 from app.core.config import settings
 from app.db.init_db import init_db
 
+setup_logger()
+
+from app.core.logger import logger
+
+logger.info('start test')
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup: initialize the database
