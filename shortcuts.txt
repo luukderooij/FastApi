@@ -1,1 +1,21 @@
 uvicorn app.main:app --reload 
+
+
+
+
+Write a Python FastApi backend application. 
+
+Schrijf een Python FastApi backend applicatie.
+
+
+
+Doel van het systeem: Is in eerste instantie een backend waar gebruikers zich kan aanmelden met email en wachtwoord recovery. De gebruikers kunnen dan toernooien aanmaken. de inhoud van deze toernooien worden later bepaald. Ook kan de gebruiker die het toernooi aan maakt andere gebruikers met rollen toewijzen. De backend moet alles opslaan in een datbase 
+Belangrijke functionaliteiten: Inlogggen, Gebruikersbeheer, API Koppelingen, aanmaken toernooien.
+Gebruikersrollen: Admin, moderator, editor, viewer
+
+
+Gebruik: Python 3.12, Fastapi, SQL Alchamy, pydantic, starlette.middleware.cors, jwt, from passlib.context import CryptContext
+
+Deploymend: Docker of Proxmox ct
+
+extra: verdeel de onderdelen in een overzichtelijke structuur. 
